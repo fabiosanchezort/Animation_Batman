@@ -15,17 +15,17 @@ var rand;
 var thunderCreatedFrame=0;
 
 function preload(){
-    thunder1 = loadImage("thunderbolt/1.png");
-    thunder2 = loadImage("thunderbolt/2.png");
-    thunder3 = loadImage("thunderbolt/3.png");
-    thunder4 = loadImage("thunderbolt/4.png");
-    hombre = loadAnimation("Walking Frame/walking_1.png", "Walking Frame/walking_2.png", "Walking Frame/walking_3.png", "Walking Frame/walking_4.png", "Walking Frame/walking_5.png", "Walking Frame/walking_6.png" ,"Walking Frame/walking_7.png", "Walking Frame/walking_8.png");
+    thunder1 = loadImage("1.png");
+    thunder2 = loadImage("2.png");
+    thunder3 = loadImage("3.png");
+    thunder4 = loadImage("4.png");
+    hombre = loadAnimation("walking_1.png", "walking_2.png", "walking_3.png", "walking_4.png", "walking_5.png", "walking_6.png" ,"walking_7.png", "walking_8.png");
     batman = loadImage("Walking Frame/batman.png")
 
-    batAnimation = loadAnimation("bat/bat1.png","bat/bat2.png","bat/bat3.png",
-                        "bat/bat4.png","bat/bat5.png","bat/bat6.png",
-                        "bat/bat7.png","bat/bat8.png","bat/bat9.png",
-                        "bat/bat10.png","bat/bat11.png","bat/bat12.png");
+    batAnimation = loadAnimation("bat1.png","bat2.png","bat3.png",
+                        "bat4.png","bat5.png","bat6.png",
+                        "bat7.png","bat8.png","bat9.png",
+                        "bat10.png","bat11.png","bat12.png");
    
 }
 
